@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <div>
-      <ExpenseList expenses={expenses} onDelete={onDelete} />;
+      <ExpenseList expenses={expenses} onDelete={onDelete} />
     </div>
   );
 };
